@@ -3,9 +3,11 @@ import './App.css';
 import { ApplicationForm } from './components/application';
 
 function Root() {
-  return <>
-    <ApplicationForm/>
-  </>
+    return <>
+        <div className='container'>   <ApplicationForm />
+        </div>
+
+    </>
 }
 
 export default Root;
